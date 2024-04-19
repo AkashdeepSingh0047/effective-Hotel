@@ -1,6 +1,6 @@
 /* Custom styles */
 .navbar {
-    background-color: rgba(0, 123, 255, 0.8) !important; /* Blue color with transparency */
+    background-color: rgba(0, 0, 0, 0.8) !important; /* Blue color with transparency */
     color: #fff;
 }
 
@@ -65,4 +65,16 @@ body {
 /* Zoom out effect on click */
 .btn:active {
     transform: scale(0.9);
+}
+
+/* Custom styles for navigation links */
+.white-link {
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* Style the navigation bar text */
+.navbar h2 {
+    color: white;
 }
